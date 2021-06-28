@@ -17,12 +17,19 @@
       color: coral;
     }
 
+    .big-menu{
+      font-size: 25px;
+      font-weight: bolder;
+      margin-left: 13px
+    }
+
     .menu{
       font-size: 20px;
       font-weight: bolder;
     }
 
     a:link {
+      color: inherit;
       background-color: transparent;
       text-decoration: none;
     }
@@ -51,7 +58,8 @@
   <body style="background-color: gray">
 
       <a href="index.html" title="main page로 이동"><h1 id=To-main>
-          YH's Websites for Self-Improvement</h1></a>
+          welcome to YH's home</h1></a>
+
     <div style="text-align: center">
     <input type="button" class="screen-button" value="night" onclick="
     document.querySelector('body').style.backgroundColor='black';
@@ -60,29 +68,29 @@
     <input type="button" class="screen-button" value="day" onclick="
     document.querySelector('body').style.backgroundColor='white';
     document.querySelector('body').style.color='black'
-    document.querySelector('#night-menu').style.color='black'
-    document.querySelector('#night-menu2').style.color='black'
-    document.querySelector('#night-menu3').style.color='black'
     ">
     <input type="button" class="screen-button" value="anti-bluescreen" onclick="
     document.querySelector('body').style.backgroundColor='green'
     document.querySelector('body').style.color='black'
-    document.querySelector('#night-menu').style.color='black'
-    document.querySelector('#night-menu2').style.color='black'
-    document.querySelector('#night-menu3').style.color='black'
     ">
     </div>
-    <ol>
-      <li class= menu><a href="https://www.youtube.com/user/egoing2">생활코딩</a></span></li>
-      <li class= menu><a href="https://www.youtube.com/watch?v=6iK6vJ7fSqw" id= night-menu2>빅씨스의 비키니바디 1편</a></li>
-      <li class= menu><a href="https://www.netflix.com/browse" id= night-menu3>Netflix</a></li>
-    </<ol><br>
+    <br>
 
-      <p>
-      <img src="happiness.jpg" width="100%">
-      </p>
-
-  </body>
-
+    <div class=big-menu>• Self-Improvement</div>
+      <ol>
+      <li class= menu><a href="https://www.youtube.com/user/egoing2">생활코딩</a></li>
+      <li class= menu><a href="https://www.youtube.com/watch?v=6iK6vJ7fSqw">빅씨스의 비키니바디 1편</a></li>
+      <li class= menu><a href="http://consensus.hankyung.com/apps.analysis/analysis.list?&skinType=industry">한경 컨센서스</a></li>
+      <li class= menu><a href="https://seekingalpha.com/">SeekingAlpha</a></li>
+      </ol>
+      <br>
+      <div class=big-menu>• Favorites</div>
+      <ol>
+      <li class= menu><a href="https://www.naver.com">네이버</a></li>
+      <li class= menu><a href="https://www.netflix.com/browse">Netflix</a></li>
+      <li class= menu><a href="https://www.google.co.kr">Google</a></li>
+      </ol>
+      <br>
+    <img src="happiness.jpg" width="100%">
 
 </html>
